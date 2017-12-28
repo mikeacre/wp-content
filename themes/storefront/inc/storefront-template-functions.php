@@ -397,7 +397,7 @@ if ( ! function_exists( 'storefront_post_content' ) ) {
 		the_content(
 			sprintf(
 				__( 'Continue reading %s', 'storefront' ),
-				'<span class="screen-reader-text barz_nigga">' . get_the_title() . '</span>'
+				'<span class="screen-reader-text post-links">' . get_the_title() . '</span>'
 			)
 		);
 
