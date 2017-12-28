@@ -35,6 +35,57 @@ Tags: dark, light, white, black, gray, one-column, fluid-layout, responsive-layo
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
 
+.custom-header{
+	padding:0px;
+	background-color:#ffbd4a;
+	font-size:2em;
+	text-transform: uppercase;
+	padding-left:15px;
+	border:2px solid #000;
+	border-right-color:#ffbd4a;
+	border-left-width:10px;
+
+}
+
+.custom-header a:link, a, a:visited, a:active{
+	color:#fff;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.post-style p,a, a:visited, a:link, a:active{
+	color:#000;
+	text-decoration:underline;
+	text-decoration-color:#ffbd4a;
+
+}
+
+.post-style p, a:hover{
+	color: #4196cf;
+	text-decoration:none;
+}
+
+
+
+.post_style{
+	float:top;
+	padding:3px;
+	border-right:2px solid #ffbd4a;
+	padding-left:25px;
+	padding-right:10px;
+	border-left:10px dashed #000;
+	border-bottom:2px solid #ffbd4a;
+	text-indent: 30px;
+	text-align: justify;
+  text-justify: inter-word;
+}
+.site-header{
+	padding-bottom:0px;
+}
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
