@@ -28,11 +28,6 @@ function woo_custom_cart_button_text() {
 
 }
 
-function add_to_cart_text()
-{
-	return "Add To Cart!";
-}
-
 
 
 /**
