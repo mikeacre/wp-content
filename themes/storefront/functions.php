@@ -28,6 +28,11 @@ function woo_custom_cart_button_text() {
 
 }
 
+function custom_jetpack_default_image() {
+    return http://www.dontbeanocoiner.com/wp-content/uploads/2017/12/banner-1.jpg';
+}
+add_filter( 'jetpack_open_graph_image_default', 'custom_jetpack_default_image' );
+
 
 /**
  * Set the content width based on the theme's design and stylesheet.
