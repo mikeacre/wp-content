@@ -1,0 +1,528 @@
+12-15-2017 @ 08:54:43 - Info: Begin processing payment for order 54 for the amount of 24.58
+12-15-2017 @ 08:54:43 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 2458
+    [description] => Don't Be A NoCoiner - Order 54
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => michael acre
+            [Customer Email] => phurien@gmail.com
+        )
+
+    [source] => src_1BZJe4IPZPoqlp2kKPeG9DDv
+)
+
+12-15-2017 @ 08:54:44 - Processing response: stdClass Object
+(
+    [id] => py_1BZJeBIPZPoqlp2k0hMoj2rI
+    [object] => charge
+    [amount] => 2458
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BZJeBIPZPoqlp2kEW2haFwz
+            [object] => balance_transaction
+            [amount] => 2458
+            [available_on] => 1513900800
+            [created] => 1513346083
+            [currency] => usd
+            [description] => Don't Be A NoCoiner - Order 54
+            [fee] => 20
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 20
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 2438
+            [source] => py_1BZJeBIPZPoqlp2k0hMoj2rI
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=py_1BZJeBIPZPoqlp2k0hMoj2rI
+                )
+
+            [status] => pending
+            [type] => payment
+        )
+
+    [captured] => 1
+    [created] => 1513346083
+    [currency] => usd
+    [customer] => 
+    [description] => Don't Be A NoCoiner - Order 54
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => michael acre
+            [Customer Email] => phurien@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => not_assessed
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/py_1BZJeBIPZPoqlp2k0hMoj2rI/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1BZJe4IPZPoqlp2kKPeG9DDv
+            [object] => source
+            [amount] => 2458
+            [client_secret] => src_client_secret_BxE61h5A7ctUQ6mdLuDSWfvB
+            [created] => 1513346083
+            [currency] => usd
+            [flow] => receiver
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => phurien@gmail.com
+                    [name] => 
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [receiver] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount_charged] => 2458
+                    [amount_received] => 2458
+                    [amount_returned] => 0
+                    [refund_attributes_method] => email
+                    [refund_attributes_status] => missing
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => bitcoin
+            [usage] => single_use
+            [bitcoin] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount] => 5827918
+                    [amount_charged] => 5827918
+                    [amount_received] => 5827918
+                    [amount_returned] => 0
+                    [uri] => bitcoin:test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N?amount=0.05827918
+                    [refund_address] => 
+                )
+
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+12-15-2017 @ 08:54:44 - Success: Stripe charge complete (Charge ID: py_1BZJeBIPZPoqlp2k0hMoj2rI)
+12-15-2017 @ 08:58:46 - Info: Begin processing payment for order 55 for the amount of 178.48
+12-15-2017 @ 08:58:46 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 17848
+    [description] => Don't Be A NoCoiner - Order 55
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => michael acre
+            [Customer Email] => phurien@gmail.com
+        )
+
+    [source] => src_1BZJhzIPZPoqlp2kdevCDO0E
+)
+
+12-15-2017 @ 08:58:47 - Processing response: stdClass Object
+(
+    [id] => py_1BZJi7IPZPoqlp2kK0czRn2V
+    [object] => charge
+    [amount] => 17848
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BZJi7IPZPoqlp2kOLxuAUvF
+            [object] => balance_transaction
+            [amount] => 17848
+            [available_on] => 1513900800
+            [created] => 1513346327
+            [currency] => usd
+            [description] => Don't Be A NoCoiner - Order 55
+            [fee] => 143
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 143
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 17705
+            [source] => py_1BZJi7IPZPoqlp2kK0czRn2V
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=py_1BZJi7IPZPoqlp2kK0czRn2V
+                )
+
+            [status] => pending
+            [type] => payment
+        )
+
+    [captured] => 1
+    [created] => 1513346327
+    [currency] => usd
+    [customer] => 
+    [description] => Don't Be A NoCoiner - Order 55
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => michael acre
+            [Customer Email] => phurien@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => not_assessed
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/py_1BZJi7IPZPoqlp2kK0czRn2V/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1BZJhzIPZPoqlp2kdevCDO0E
+            [object] => source
+            [amount] => 17848
+            [client_secret] => src_client_secret_BxEALCSjQCgRCJgwVEJAf03e
+            [created] => 1513346327
+            [currency] => usd
+            [flow] => receiver
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => phurien@gmail.com
+                    [name] => 
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [receiver] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount_charged] => 17848
+                    [amount_received] => 17848
+                    [amount_returned] => 0
+                    [refund_attributes_method] => email
+                    [refund_attributes_status] => missing
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => bitcoin
+            [usage] => single_use
+            [bitcoin] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount] => 42317608
+                    [amount_charged] => 42317608
+                    [amount_received] => 42317608
+                    [amount_returned] => 0
+                    [uri] => bitcoin:test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N?amount=0.42317608
+                    [refund_address] => 
+                )
+
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+12-15-2017 @ 08:58:48 - Success: Stripe charge complete (Charge ID: py_1BZJi7IPZPoqlp2kK0czRn2V)
+12-15-2017 @ 18:59:37 - Info: Begin processing payment for order 98 for the amount of 52.36
+12-15-2017 @ 18:59:37 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 5236
+    [description] => Don't Be A NoCoiner - Order 98
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => Mike Acre
+            [Customer Email] => mikeacre@gmail.com
+        )
+
+    [source] => src_1BZT5SIPZPoqlp2k8rUruiSS
+)
+
+12-15-2017 @ 18:59:38 - Processing response: stdClass Object
+(
+    [id] => py_1BZT5ZIPZPoqlp2kWgjTL8Gn
+    [object] => charge
+    [amount] => 5236
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BZT5ZIPZPoqlp2kSRyrSaHK
+            [object] => balance_transaction
+            [amount] => 5236
+            [available_on] => 1513900800
+            [created] => 1513382377
+            [currency] => usd
+            [description] => Don't Be A NoCoiner - Order 98
+            [fee] => 42
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 42
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5194
+            [source] => py_1BZT5ZIPZPoqlp2kWgjTL8Gn
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=py_1BZT5ZIPZPoqlp2kWgjTL8Gn
+                )
+
+            [status] => pending
+            [type] => payment
+        )
+
+    [captured] => 1
+    [created] => 1513382377
+    [currency] => usd
+    [customer] => 
+    [description] => Don't Be A NoCoiner - Order 98
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => Mike Acre
+            [Customer Email] => mikeacre@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => not_assessed
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/py_1BZT5ZIPZPoqlp2kWgjTL8Gn/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1BZT5SIPZPoqlp2k8rUruiSS
+            [object] => source
+            [amount] => 5236
+            [client_secret] => src_client_secret_BxNrqNxwsY2bk8kIEAmmBB4L
+            [created] => 1513382377
+            [currency] => usd
+            [flow] => receiver
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => mikeacre@gmail.com
+                    [name] => 
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [receiver] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount_charged] => 5236
+                    [amount_received] => 5236
+                    [amount_returned] => 0
+                    [refund_attributes_method] => email
+                    [refund_attributes_status] => missing
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => bitcoin
+            [usage] => single_use
+            [bitcoin] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount] => 12414556
+                    [amount_charged] => 12414556
+                    [amount_received] => 12414556
+                    [amount_returned] => 0
+                    [uri] => bitcoin:test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N?amount=0.12414556
+                    [refund_address] => 
+                )
+
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+12-15-2017 @ 18:59:38 - Success: Stripe charge complete (Charge ID: py_1BZT5ZIPZPoqlp2kWgjTL8Gn)

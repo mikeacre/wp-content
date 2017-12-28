@@ -1,0 +1,512 @@
+# Translation of Themes - Storefront in German
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-09 14:09:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Theme Name of the plugin/theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. Description of the plugin/theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront ist das perfekte Theme für dein nächstes WooCommerce-Projekt. Von WooCommerce Core gestaltet und entwickelt, bietet es eine umfassende Integration mit unserem marktführenden WooCommerce-Plugin, verschiedene Layout- & Farboptionen um deinen Shop zu personalisieren, vielfache Widget-Bereiche, eine responsives Design und vieles mehr. Entwickler werden seine schmale und erweiterbare Codebasis lieben, mit der Anpassungen und Erweiterungen eine Freude sind. Du suchst ein Theme für WooCommerce? Du hast es gefunden!"
+
+#: inc/class-storefront.php:145
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Widgets die in diesem Bereich hinzugefügt werden, erscheinen unter dem Header und über dem Hauptinhalt"
+
+#: inc/admin/welcome-screen/component-contribute.php:15
+msgid "Download Theme Customisations"
+msgstr "Herunterladen von Theme Anpassungen"
+
+#: inc/admin/welcome-screen/component-contribute.php:11
+msgid "We highly encourage you to make %s all yours. If you need to make a CSS tweak or add some custom JS or PHP, please use our Theme Customisations Plugin. Simply Click the button below, install as normal, and start Customizing today!"
+msgstr "Wir empfehlen Dir %s Deinen Bedürfnissen anzupassen. Wenn Änderungen am CSS oder benutzerdefinierte JS oder PHP Anpassungen gemacht werden müssen, nutze bitte unser Theme Customisations Plugin. Klick einfach die Schaltfläche hier unten, installiere es und fange heute an die Anpassungen zu machen!"
+
+#: inc/admin/welcome-screen/component-contribute.php:10
+msgid "Customise Storefront"
+msgstr "Storefront anpassen"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:327
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:300
+msgid "Search"
+msgstr "Suche"
+
+#: inc/storefront-template-functions.php:738
+msgid "Best Sellers"
+msgstr "Bestseller"
+
+#: inc/storefront-template-functions.php:662
+msgid "Fan Favorites"
+msgstr "Fan-Favoriten"
+
+#: inc/storefront-template-functions.php:621
+msgid "We Recommend"
+msgstr "Wir empfehlen"
+
+#: inc/storefront-template-functions.php:580
+msgid "New In"
+msgstr "Neu verfügbar"
+
+#: inc/storefront-template-functions.php:539
+msgid "Shop by Category"
+msgstr "Einkaufen nach Kategorie"
+
+#: inc/storefront-template-functions.php:443
+msgid "Comments"
+msgstr "Kommentare"
+
+#: inc/storefront-template-functions.php:433
+msgid "Tagged"
+msgstr "Markiert"
+
+#: inc/storefront-template-functions.php:420
+msgid "Posted in"
+msgstr "Abgelegt in"
+
+#: inc/storefront-template-functions.php:409
+msgid "Written by"
+msgstr "Geschrieben von"
+
+#: inc/storefront-template-functions.php:231
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/admin/welcome-screen/component-intro.php:66
+msgid "Stay up to date with Storefront developments on the %sdev blog%s."
+msgstr "Bleibe auf dem Laufenden mit den Entwicklungen um Storefront auf den %sdev blog%s."
+
+#: inc/admin/welcome-screen/component-enhance.php:39
+#: inc/admin/welcome-screen/component-enhance.php:81
+#: inc/admin/welcome-screen/component-enhance.php:111
+msgid "We're currently unable to retrieve these products. Please double check your internet connection or try back later."
+msgstr "Wir sind derzeit nicht in der Lage, diese Produkte zu laden. Bitte überprüfe deine Internetverbindung oder versuche es später erneut."
+
+#: inc/admin/welcome-screen/component-contribute.php:32
+msgid "You can find a wide range of information on how to use and customise %s in our %sdocumentation%s. If you're a customer you can get support in our %sHelpdesk%3$s. Otherwise you can try posting on the WordPress.org %ssupport forums%3$s."
+msgstr ""
+"Du findest eine breite Auswahl an Informationen wie man %s nutzt und konfiguriert in unserer %sdocumentation%s. Wenn Du ein Kunde bist erhälst Du Unterstützung von unserem %sHelpdesk%3$s.\n"
+"Alternativ kannst Du versuchen auf der WordPress.org %ssupport forums%3$s einen Beitrag zu publizieren."
+
+#: inc/admin/welcome-screen/component-contribute.php:31
+msgid "Get support"
+msgstr "Hilfe erhalten"
+
+#: inc/class-storefront.php:143
+msgid "Below Header"
+msgstr "Unter dem Header"
+
+#: inc/admin/welcome-screen/component-intro.php:58
+msgid "Customizer settings"
+msgstr "Customizer-Einstellungen"
+
+#: inc/customizer/class-storefront-customizer-control-more.php:31
+msgid "Enjoying %s?"
+msgstr "Gefällt dir %s?"
+
+#: inc/admin/welcome-screen/component-intro.php:57
+msgid "FAQ"
+msgstr "FAQs"
+
+#: inc/admin/welcome-screen/component-intro.php:56
+msgid "Installation &amp; configuration"
+msgstr "Installation &amp; Konfiguration"
+
+#: inc/admin/welcome-screen/component-intro.php:54
+msgid "Featured Docs"
+msgstr "Ausgewählte Dokumente"
+
+#: inc/admin/welcome-screen/component-intro.php:34
+msgid "Recent News"
+msgstr "Neueste Nachrichten"
+
+#: inc/admin/welcome-screen/component-intro.php:31
+msgid "Latest %s news"
+msgstr "Neueste %s Nachrichten"
+
+#: inc/admin/welcome-screen/component-intro.php:26
+msgid "Install %s"
+msgstr "Installiere %s"
+
+#: inc/admin/welcome-screen/component-intro.php:19
+msgid "Built to enrich your %s store"
+msgstr "Erschaffen um deinen %s-Shop zu erweitern"
+
+#: inc/admin/welcome-screen/component-intro.php:14
+msgid "%sEnjoying %s?%s Why not %sleave a review%s on WordPress.org? We'd really appreciate it!"
+msgstr "%sEntspricht %s Ihrem Geschmack?%s Dann %shinterlassen Sie doch eine Bewertung%s auf WordPress.org? Wir würden das sehr zu schätzen wissen!"
+
+#: inc/admin/welcome-screen/component-enhance.php:86
+msgid "View all %s child themes &rarr;"
+msgstr "Alle %s-Child-Themes ansehen &rarr;"
+
+#: inc/admin/welcome-screen/component-enhance.php:53
+msgid "Take a look at our range of child themes for %s that allow you to easily change the look of your store to suit a specific industry."
+msgstr "Sieh dir die Bandbreite unserer Child-Themes für %s an, die es dir ermöglichen, das Aussehen deines Shops deiner Branche anzupassen."
+
+#: inc/admin/welcome-screen/component-enhance.php:52
+msgid "Child themes"
+msgstr "Child-Themes"
+
+#: inc/admin/welcome-screen/component-enhance.php:94
+msgid "There are a number of free plugins available for %s on the WordPress.org %splugin repository%s. Here's a few we made earlier:"
+msgstr "Es gibt weitere, kostenlose Plugins für %s im WordPress.org %sPlugin-Verzeichnis%s. Hier einige Beispiele:"
+
+#: inc/admin/welcome-screen/component-enhance.php:46
+msgid "View all %s extensions &rarr;"
+msgstr "Alle %s-Erweiterungen ansehen &rarr;"
+
+#: inc/admin/welcome-screen/component-enhance.php:22
+msgid "Take a look at our range of extensions that extend and enhance %s functionality."
+msgstr "Sieh dir die Bandbreite unserer Erweiterungen an, die die Funktionalität von %s erweitern und ergänzen."
+
+#: inc/admin/welcome-screen/component-enhance.php:20
+msgid "Enhance %s"
+msgstr "Verbessere %s"
+
+#: inc/admin/welcome-screen/component-contribute.php:38
+msgid "An %s project"
+msgstr "Ein %s Projekt"
+
+#: inc/admin/welcome-screen/component-contribute.php:27
+msgid "Please suggest and vote on ideas at the %s%s Ideas board%s. The most popular ideas will see prioritised development."
+msgstr "Bitte mache Vorschläge und bewerte Ideen im %s%s Ideenboard%s. Die beliebtesten Ideen werden priorisiert entwickelt."
+
+#: inc/admin/welcome-screen/component-contribute.php:26
+msgid "Suggest a feature"
+msgstr "Neue Funktion vorschlagen"
+
+#: inc/admin/welcome-screen/component-contribute.php:21
+msgid "Contribute to Storefront"
+msgstr "Zu Storefront beitragen"
+
+#: inc/admin/welcome-screen/component-intro.php:24
+msgid "%s is activated"
+msgstr "%s ist aktiviert"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:225
+msgid "On Sale Now"
+msgstr "Jetzt im Angebot"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:233
+msgid "New In Store"
+msgstr "Neu im Shop"
+
+#: inc/admin/welcome-screen/component-enhance.php:62
+#: inc/admin/welcome-screen/component-enhance.php:106
+msgid "Free!"
+msgstr "Kostenlos!"
+
+#: inc/admin/welcome-screen/component-enhance.php:92
+msgid "Install free plugins"
+msgstr "Installiere kostenlose Plugins"
+
+#: inc/customizer/class-storefront-customizer.php:234
+msgid "Header background image"
+msgstr "Header-Hintergrundbild"
+
+#: inc/storefront-template-functions.php:461
+msgctxt "Next post"
+msgid "Next"
+msgstr "Nächster"
+
+#: inc/storefront-template-functions.php:462
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Vorheriger"
+
+#: 404.php:58
+msgid "Popular Products"
+msgstr "Beliebte Produkte"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "An dieser Stelle wurde nichts gefunden. Versuche es mit einer Suche, oder probiere unten stehende Links."
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Startseite"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "Vollständige Breite"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:75
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d Artikel"
+msgstr[1] "%d Artikel"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: 404.php:47
+msgid "Product Categories"
+msgstr "Produktkategorien"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:217
+msgid "Featured Products"
+msgstr "Featured Produkte"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:74
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:313
+msgid "View your shopping cart"
+msgstr "Deinen Warenkorb ansehen"
+
+#: inc/storefront-template-functions.php:701
+msgid "On Sale"
+msgstr "Angebot"
+
+#: inc/storefront-template-functions.php:500
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Geschrieben am %s"
+
+#: inc/storefront-template-functions.php:444
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: inc/storefront-template-functions.php:444
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/storefront-template-functions.php:444
+msgid "Leave a comment"
+msgstr "Hinterlasse einen Kommentar"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:415
+#: inc/storefront-template-functions.php:428
+msgid ", "
+msgstr ", "
+
+#: inc/storefront-template-functions.php:377
+msgid "Continue reading %s"
+msgstr "%s weiterlesen"
+
+#: inc/storefront-template-functions.php:322
+#: inc/storefront-template-functions.php:385
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: inc/storefront-template-functions.php:286
+msgid "Skip to navigation"
+msgstr "Zur Navigation springen"
+
+#: inc/storefront-template-functions.php:262
+msgid "Secondary Navigation"
+msgstr "Sekundärnavigation"
+
+#: inc/storefront-template-functions.php:287
+msgid "Skip to content"
+msgstr "Springe zum Inhalt"
+
+#: inc/storefront-template-functions.php:128
+msgid "%1$s designed by %2$s."
+msgstr "%1$s gestaltet von %2$s."
+
+#: inc/storefront-template-functions.php:230
+msgid "Primary Navigation"
+msgstr "Primäre Navigation"
+
+#: inc/storefront-template-functions.php:64
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/class-storefront.php:154
+msgid "Footer %d"
+msgstr "Footer %d"
+
+#: inc/class-storefront.php:156
+msgid "Widgetized Footer Region %d."
+msgstr "Footer-Widget-Bereich %d."
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Freischaltung."
+
+#: inc/class-storefront.php:88
+msgid "Handheld Menu"
+msgstr "Handheld-Menü"
+
+#: inc/class-storefront.php:137
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/class-storefront.php:87
+msgid "Secondary Menu"
+msgstr "Sekundär-Menü"
+
+#: inc/customizer/class-storefront-customizer.php:460
+msgid "Looking for more options?"
+msgstr "Suchen sie weitere Optionen?"
+
+#: inc/class-storefront.php:86
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: inc/customizer/class-storefront-customizer.php:437
+msgid "General Layout"
+msgstr "Allgemeines Layout"
+
+#: inc/customizer/class-storefront-customizer.php:450
+msgid "More"
+msgstr "Mehr"
+
+#: inc/customizer/class-storefront-customizer.php:289
+msgid "Customise the look & feel of your web site footer."
+msgstr "Bearbeite die Ansicht deines Webseiten Footers."
+
+#: inc/customizer/class-storefront-customizer.php:358
+msgid "Customise the look & feel of your web site buttons."
+msgstr "Bearbeite die Ansicht deiner Webseiten Buttons"
+
+#: inc/customizer/class-storefront-customizer.php:356
+msgid "Buttons"
+msgstr "Buttons"
+
+#: inc/customizer/class-storefront-customizer.php:415
+msgid "Alternate button text color"
+msgstr "Schaltflächentextfarbe ändern"
+
+#: inc/customizer/class-storefront-customizer.php:400
+msgid "Alternate button background color"
+msgstr "Schaltflächenhintergrundfarbe ändern"
+
+#: inc/customizer/class-storefront-customizer.php:425
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/class-storefront-customizer.php:287
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer/class-storefront-customizer.php:277
+#: inc/customizer/class-storefront-customizer.php:346
+msgid "Link color"
+msgstr "Linkfarbe"
+
+#: inc/customizer/class-storefront-customizer.php:247
+#: inc/customizer/class-storefront-customizer.php:301
+#: inc/customizer/class-storefront-customizer.php:370
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: inc/customizer/class-storefront-customizer.php:195
+#: inc/customizer/class-storefront-customizer.php:316
+msgid "Heading color"
+msgstr "&Uuml;berschriftsfarbe"
+
+#: inc/customizer/class-storefront-customizer.php:225
+msgid "Link / accent color"
+msgstr "Link/Akzentfarbe"
+
+#: inc/customizer/class-storefront-customizer.php:210
+#: inc/customizer/class-storefront-customizer.php:262
+#: inc/customizer/class-storefront-customizer.php:331
+#: inc/customizer/class-storefront-customizer.php:385
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: inc/customizer/class-storefront-customizer.php:182
+msgid "Typography"
+msgstr "Typographie"
+
+#: inc/customizer/class-storefront-customizer.php:144
+msgid "Header"
+msgstr "Header"
+
+#: inc/admin/welcome-screen/component-contribute.php:22
+msgid "Found a bug? Want to contribute a patch or create a new feature? %sGitHub is the place to go!%s Or would you like to translate %s into your language? %sGet involved on WordPress.org%s."
+msgstr "Hast du einen Fehler gefunden? Willst du einen Patch oder ein neues Feature beisteuern? Dann ist %sGitHub der richtige Ort!%s Oder möchtest du %s in deine Sprache übersetzen? %sDann mache mit auf Wordpress.org%s."
+
+#: inc/admin/class-storefront-admin.php:57
+msgid "Get started with Storefront"
+msgstr "Erste Schritte mit Storefront"
+
+#: inc/admin/class-storefront-admin.php:56
+msgid "Thanks for choosing Storefront! You can read hints and tips on how get the most out of your new theme on the %swelcome screen%s."
+msgstr "Vielen Dank, dass du dich für Storefront entschieden hast! Hinweise und Tipps, wie du das Beste aus deinem neuen Theme herausholen kannst, findest du auf der %swelcome screen%s."
+
+#: inc/customizer/class-storefront-customizer-control-more.php:28
+msgid "There's a range of %s extensions available to put additional power in your hands. Check out the %s%s%s page in your dashboard for more information."
+msgstr "Es gibt eine Reihe von %s-Erweiterungen, die dir zusätzliche Möglichkeiten in die Hände geben. Wirf einen Blick auf die %s%s%s-Seite auf deinem Dashboard, dort findest du weitere Informationen."
+
+#: inc/customizer/class-storefront-customizer-control-more.php:34
+msgid "Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
+msgstr "Warum nicht eine Bewertung auf %sWordPress.org%s abgeben? Wir würden uns freuen!"
+
+#: inc/customizer/class-storefront-customizer.php:140
+msgid "Background"
+msgstr "Hintergrund"
+
+#: inc/admin/welcome-screen/component-intro.php:21
+msgid "Although %s works fine as a regular WordPress theme, it really shines when used for an online store. Install %s and start selling now."
+msgstr "Obwohl %s gut als normales WordPress-Theme funktioniert, zeigt es erst als Online-Shop seine wahre Stärke. Installiere %s und starte deinen Shop."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft die Suchfunktion."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Entschuldigung, aber zu deinen Suchbegriffen wurde nichts passendes gefunden. Bitte versuche es mit anderen Stichworten noch einmal."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, um deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Es konnte nichts gefunden werden."
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:39 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:38 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:37 comments.php:55
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &#8222;%2$s&#8220;"
+msgstr[1] "%1$s Gedanken zu &#8222;%2$s&#8220;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Huch! Die Seite konnte leider nicht gefunden werden."
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the plugin/theme
+msgid "https://woocommerce.com/storefront"
+msgstr "https://woocommerce.com/storefront"
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
