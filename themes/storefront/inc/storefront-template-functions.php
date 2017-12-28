@@ -384,7 +384,7 @@ if ( ! function_exists( 'storefront_post_content' ) ) {
 	 */
 	function storefront_post_content() {
 		?>
-		<div class="t post_style">
+		<div class="t post_style post-links">
 		<?php
 
 		/**
