@@ -24,31 +24,7 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_butt
 
 function woo_custom_cart_button_text() {
 
-        return __( 'Add To Cart!', 'woocommerce' );
-
-}
-
-function custom_woocommerce_product_add_to_cart_text() {
-	global $product;
-
-	$product_type = $product->product_type;
-
-	switch ( $product_type ) {
-		case 'external':
-			return __( 'Order Now!', 'woocommerce' );
-		break;
-		case 'grouped':
-			return __( 'View Products', 'woocommerce' );
-		break;
-		case 'simple':
-			return __( 'Add To Cart!', 'woocommerce' );
-		break;
-		case 'variable':
-			return __( 'Order Now!', 'woocommerce' );
-		break;
-		default:
-			return __( 'Order Now!', 'woocommerce' );
-	}
+        return __( 'Buy Now!', 'woocommerce' );
 
 }
 
