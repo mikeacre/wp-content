@@ -10,7 +10,7 @@
  */
 $theme              = wp_get_theme( 'storefront' );
 $storefront_version = $theme['Version'];
-add_to_cart_text()
+
 
 /** THIS WAS ADDED BY ME TO GET RID OF SIDEBAR**/
 add_action( 'get_header', 'remove_storefront_sidebar' );
