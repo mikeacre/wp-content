@@ -359,16 +359,16 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 
 		<?php
 		if ( is_single() ) {
-			
+
 			the_title( '<div class="custom-header">', '</div>' );
-			
+
 		} else {
 			if ( 'post' == get_post_type() ) {
-				
+
 			}
 
-			the_title( sprintf( '<div class="custom-header"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></div>' );
-			
+			the_title( sprintf( '<div class="custom-header">::<a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></div>' );
+
 		}
 		?>
 		<!-- .entry-header -->
