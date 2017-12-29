@@ -183,16 +183,13 @@ margin-left:.6180469716em;
 background-color:transparent;
 }
 
-.buttom
-
-ul.products li.product .woocommerce-loop-product__title,ul.products li.product h2,ul.products li.product h3 {
+.buttom ul.products li.product .woocommerce-loop-product__title,ul.products li.product h2,ul.products li.product h3 {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 0;
   background-color: #e8291b;
   border-color: #e8291b;
   color: #fff;
-  width: 100%;
   border-radius: 20px 20px 0px 0px;
 }
 
