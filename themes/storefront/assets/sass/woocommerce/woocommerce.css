@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
 font-family:star;
 src:url(../../../../../plugins/woocommerce/assets/fonts/star.eot?#iefix) format(embedded-opentype),url(../../../../../plugins/woocommerce/assets/fonts/star.woff) format(woff),url(../../../../../plugins/woocommerce/assets/fonts/star.ttf) format(truetype),url(../../../../../plugins/woocommerce/assets/fonts/star.svg#star) format(svg);
@@ -184,19 +183,15 @@ margin-left:.6180469716em;
 background-color:transparent;
 }
 
-.buttom ul.products li.product .woocommerce-loop-product__title,ul.products li.product h2,ul.products li.product h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 0;
-  background-color: #e8291b;
-  border-color: #e8291b;
-  color: #fff;
-  border-radius: 20px 20px 0px 0px;
+ul.products li.product .woocommerce-loop-product__title,ul.products li.product h2,ul.products li.product h3 {
+font-size:1rem;
+font-weight:400;
+margin-bottom:.5407911001em;
 }
 
 ul.products li.product img {
 display:block;
-margin:0;
+margin:0 auto;
 }
 
 ul.products li.product.product-category .woocommerce-loop-category__title,ul.products li.product.product-category h2,ul.products li.product.product-category h3 {
@@ -204,11 +199,7 @@ font-size:1.1em;
 }
 
 ul.products li.product .button {
-  background-color: #e8291b;
-  border-color: #e8291b;
-  color: #fff;
-  width: 100%;
-  border-radius: 0px 0px 20px 20px;
+margin-bottom:.236em;
 }
 
 .price del {
