@@ -48,13 +48,15 @@ a:hover{
 }
 
 .page-title{
-    border: 2px solid black;
-    border-radius: 15px 15px 15px 15px;
-    color: #000;
-    box-shadow: 8px 12px 15px black;
-    background-color: #ff0000;
-    padding-left: 15px;
-    font-weight: 400;
+  border: 2px solid black;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  box-shadow: 8px 12px 15px black;
+  background-color: #ff0000;
+  padding-left: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 3px 4px 6px black
 }
 
 .page-description{
