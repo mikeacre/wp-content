@@ -94,7 +94,7 @@ a:hover{
 
  .custom-header{
  	padding:0px;
- 	background-color:#ffbd4a;
+ 	background: linear-gradient(#7ccbf1, #a38dfd);
  	font-size:2em;
   color:#000;
  	text-transform: uppercase;
