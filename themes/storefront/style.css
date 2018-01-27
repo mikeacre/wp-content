@@ -567,7 +567,7 @@ a:focus {
     box-sizing: border-box
 }
 body {
-    background-color: #ccc;
+    background-color: #fff;
     overflow-x: hidden
 }
 .site {
@@ -578,10 +578,10 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 .site-header {
-    background-color: #284c82;
+    background: linear-gradient(#7ccbf1, #a38dfd);
     padding-top: 0.5em;
     padding-bottom: 0;
-    color: #9aa0a7;
+    color: #000;
     background-position: center center;
     position: relative;
     z-index: 999;
