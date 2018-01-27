@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/custom/css/mbr-additional.css" type="text/css">
 
-
+<?php wp_head(); ?>
 
 </head>
 <body>
