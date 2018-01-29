@@ -85,6 +85,8 @@ a:hover{
 }
 
 .entry-title{
+  font-size: 2em;
+  text-transform: uppercase;
   background-color: #eee;
   color: #000!important;
   font-weight: 700;
