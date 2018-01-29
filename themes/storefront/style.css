@@ -80,6 +80,7 @@ a:hover{
 }
 
 .entry-header{
+  border-top: 1px solid #000;
   margin-left: -99em;
   margin-right: -99em;
 }
@@ -605,7 +606,6 @@ body {
     background-position: center center;
     position: relative;
     z-index: 999;
-    border-bottom: 1px solid transparent
 }
 .site-header .custom-logo-link,
 .site-header .site-logo-anchor,
