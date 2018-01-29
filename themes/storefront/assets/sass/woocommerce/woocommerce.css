@@ -206,11 +206,7 @@ ul.products li.product .price ins{
     margin-left:.6180469716em;
     background-color:transparent
 }
-ul.products li.product .woocommerce-loop-product__title,ul.products li.product h2,ul.products li.product h3{
-    font-size:1rem;
-    font-weight:400;
-    margin-bottom:0
-}
+
 ul.products li.product .star-rating{
     font-size:.875em
 }
