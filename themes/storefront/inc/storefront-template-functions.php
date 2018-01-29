@@ -360,7 +360,7 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 		<?php
 		if ( is_single() ) {
 
-			the_title( '<div class="entry-header"><div class="entry-title>"', '</div></div>' );
+			the_title( '<div class="entry-header"><div class="entry-title">', '</div></div>' );
 
 		} else {
 			if ( 'post' == get_post_type() ) {
