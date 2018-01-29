@@ -69,7 +69,7 @@ add_action( 'homepage', 'storefront_best_selling_products', 70 );
  * @see  storefront_post_nav()
  * @see  storefront_display_comments()
  */
-#add_action( 'storefront_loop_post',           'storefront_post_header',          10 );
+add_action( 'storefront_loop_post',           'storefront_post_header',          10 );
 add_action( 'storefront_loop_post',           'storefront_post_content',         20 );
 
 add_action( 'storefront_loop_after',          'storefront_paging_nav',           10 );
