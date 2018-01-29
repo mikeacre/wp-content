@@ -356,21 +356,22 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 	 */
 	function storefront_post_header() {
 		?>
-
+		<div class="entry-header">
 		<?php
 		if ( is_single() ) {
 
-			the_title( '<div class="entry-header"><div class="entry-title">', '</div></div>' );
+			the_title( '<div class="entry-title">', '</div>' );
 
 		} else {
 			if ( 'post' == get_post_type() ) {
 
 			}
 
-			the_title( sprintf( '<div class="entry-header"><div class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></div></div>' );
+			the_title( sprintf( '<div class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></div>' );
 
 		}
 		?>
+	</div>
 		<!-- .entry-header -->
 		<?php
 	}
