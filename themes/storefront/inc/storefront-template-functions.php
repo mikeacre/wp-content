@@ -317,12 +317,11 @@ if ( ! function_exists( 'storefront_page_header' ) ) {
 	 */
 	function storefront_page_header() {
 		?>
-		<header class="entry-header">
+		<div class="entry-header">
 			<?php
-			storefront_post_thumbnail( 'full' );
 			the_title( '<h1 class="entry-title">', '</h1>' );
 			?>
-		</header><!-- .entry-header -->
+		</div><!-- .entry-header -->
 		<?php
 	}
 }
@@ -360,7 +359,7 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 		<?php
 		if ( is_single() ) {
 
-			the_title( '<div class="entry-title">', '</div>' );
+			the_title( '<div class="custom-header>', '</div>' );
 
 		} else {
 			if ( 'post' == get_post_type() ) {
