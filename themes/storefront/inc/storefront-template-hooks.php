@@ -28,7 +28,7 @@ add_action( 'storefront_header', 'storefront_site_branding',                    
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper',       42 );
 add_action( 'storefront_header', 'storefront_primary_navigation',               50 );
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 68 );
-
+add_action( 'storefront_header',           'storefront_post_header',          99 );
 /**
  * Footer
  *
@@ -68,7 +68,7 @@ add_action( 'homepage', 'storefront_best_selling_products', 70 );
  * @see  storefront_post_nav()
  * @see  storefront_display_comments()
  */
-add_action( 'storefront_loop_post',           'storefront_post_header',          10 );
+#add_action( 'storefront_loop_post',           'storefront_post_header',          10 );
 add_action( 'storefront_loop_post',           'storefront_post_content',         20 );
 
 add_action( 'storefront_loop_after',          'storefront_paging_nav',           10 );
