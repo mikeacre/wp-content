@@ -194,7 +194,7 @@ a:hover{
   border-bottom: 2px solid #000;
  }
 
- p.post-style {
+ .post-style p{
     text-indent: 25px;
     border-left:2px solid #2a04c2;
     padding-left:25px;
