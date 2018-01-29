@@ -676,11 +676,9 @@ body {
 }
 .page-template-template-homepage .entry-header h1 {
     font-size: 3.706325903em;
-    margin-bottom: .2360828548em
 }
 .page-template-template-homepage .entry-content,
 .page-template-template-homepage .entry-header {
-    max-width: 41.0994671405em;
     margin-left: auto;
     margin-right: auto;
     text-align: center
@@ -980,10 +978,7 @@ table tbody h2 a {
     margin-left: auto;
     margin-right: auto
 }
-.hentry .entry-header {
-    margin-bottom: 1em;
-    border-bottom: 1px solid rgba(0, 0, 0, .05)
-}
+
 .hentry .entry-header .byline,
 .hentry .entry-header .posted-on {
     font-size: .875em
@@ -1990,9 +1985,7 @@ button.menu-toggle:after {
     #respond .comment-form-comment {
         clear: both
     }
-    .hentry .entry-header {
-        margin-bottom: 2.617924em
-    }
+
     .hentry.type-post:after,
     .hentry.type-post:before {
         content: "";
