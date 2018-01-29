@@ -314,7 +314,6 @@ ul.products li.product .button{
     clear:both
 }
 .single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li{
-    width:33.33%;
     float:center;
 
 }
@@ -1489,7 +1488,6 @@ dl.variation dd{
         margin-right:4.347826087%
     }
     .page-template-template-fullwidth-php .site-main .columns-3 ul.products li.product,.page-template-template-homepage-php .site-main .columns-3 ul.products li.product,.storefront-full-width-content .site-main .columns-3 ul.products li.product{
-      width:33.33%;
       padding:1%;
     }
     .page-template-template-fullwidth-php .site-main .columns-4 ul.products li.product,.page-template-template-homepage-php .site-main .columns-4 ul.products li.product,.storefront-full-width-content .site-main .columns-4 ul.products li.product{
@@ -1516,7 +1514,6 @@ dl.variation dd{
         margin-right:3.8%
     }
     .site-main .columns-3 ul.products li.product{
-      width:33.33%;
       padding:1%;
     }
     .site-main .columns-4 ul.products li.product{
@@ -1608,10 +1605,7 @@ dl.variation dd{
         margin-right:0
     }
     .storefront-full-width-content.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li{
-      width:33.33%;
-      float:center;
-      margin-right:1.5%;
-      margin-left:1.5%;
+      padding:1%;
     }
     .storefront-full-width-content.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n){
         margin-right:0
