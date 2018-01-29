@@ -65,6 +65,7 @@ a:hover{
 
 .page-title{
   background: none;
+  background-color: #ccc;
   border-color: #2a04c2;
   color: #000!important;
   padding-left: 15px;
