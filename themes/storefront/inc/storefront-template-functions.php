@@ -367,7 +367,7 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 
 			}
 
-			the_title( sprintf( '<div class="entry-header"><div class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a</div></div>' );
+			the_title( sprintf( '<div class="entry-header"><div class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></div></div>' );
 
 		}
 		?>
