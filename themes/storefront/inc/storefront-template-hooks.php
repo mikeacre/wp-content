@@ -28,7 +28,7 @@ add_action( 'storefront_header', 'storefront_site_branding',                    
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper',       42 );
 add_action( 'storefront_header', 'storefront_primary_navigation',               50 );
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 68 );
-add_action( 'storefront_header',       'storefront_page_header',          70 );
+add_action( 'storefront_header',       'storefront_post_header',          70 );
 
 /**
  * Footer
