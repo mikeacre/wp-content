@@ -78,19 +78,14 @@ a:hover{
 }
 
 .page-title{
-  background: none;
   background-color: #ccc;
-  border-color: #2a04c2;
   color: #000!important;
-  padding-left: 15px;
   font-weight: 700;
   width: 100%;
   text-align: center;
-  border-radius: 100px !important;
   padding: 1rem 2rem;
   display: inline-block;
   font-family: 'Poppins', sans-serif;
-  border: solid 2px #2a04c2;
 }
 
 .page-description{
