@@ -360,14 +360,14 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 		<?php
 		if ( is_single() ) {
 
-			the_title( '<div class="entry-title" style="font-size:  2em;">', '</div>' );
+			the_title( '<div class="entry-title">', '</div>' );
 
 		} else {
 			if ( 'post' == get_post_type() ) {
 
 			}
 
-			the_title( sprintf( '<div class="entry-title"><a href="%s" rel="bookmark" class="entry-title">', esc_url( get_permalink() ) ), '</a></div>' );
+			the_title( sprintf( '<div><a href="%s" rel="bookmark" class="entry-title">', esc_url( get_permalink() ) ), '</a></div>' );
 
 		}
 		?>
