@@ -33,7 +33,7 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_before_main_content' );
 	?>
 
-    <header class="woocommerce-products-header test">
+    <header class="entry-title">
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
