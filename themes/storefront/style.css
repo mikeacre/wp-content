@@ -56,6 +56,7 @@ a.entry-title{
   font-weight: 700;
   color: #000000;
   font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 a.button.product_type_variable.add_to_cart_button{
@@ -195,6 +196,7 @@ a:hover{
 
  p {
     text-indent: 25px;
+    border-left:2px solid #2a04c2;
 }
 
 .post_style{
@@ -202,13 +204,14 @@ a:hover{
   font-family: 'Comfortaa', sans-serif;
  	padding:3px;
   color:#000;
- 	border-left:2px solid #2a04c2;
  	padding-left:25px;
  	padding-right:10px;
 
  	text-indent: 30px;
  	text-align: justify;
  }
+
+
  .site-header{
  	padding-bottom:0px;
  }
