@@ -193,15 +193,19 @@ a:hover{
   border-bottom: 2px solid #000;
  }
 
+ p {
+    text-indent: 50px;
+}
+
 .post_style{
  	float:top;
+  font-family: 'Comfortaa', sans-serif;
  	padding:3px;
   color:#000;
- 	border-right:2px solid #000;
+ 	border-left:2px solid #2a04c2;
  	padding-left:25px;
  	padding-right:10px;
- 	border-left:0px dashed #000;
- 	border-bottom:2px solid #000;
+ 	border-bottom:2px solid #2a04c2;
  	text-indent: 30px;
  	text-align: justify;
  }
