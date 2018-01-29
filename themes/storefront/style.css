@@ -76,6 +76,12 @@ a:hover{
   padding: 1rem 2rem;
   display: inline-block;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
+
+.entry-header{
+  margin-left: -99em;
+  margin-right: -99em;
 }
 
 .page-title{
