@@ -64,15 +64,18 @@ a:hover{
 }
 
 .page-title{
-  border: 2px solid black;
-  border-radius: 15px 15px 15px 15px;
-  color: #fff;
-  box-shadow: 8px 12px 15px black;
-  background-color: #ff0000;
+  background: none;
+  border-color: #2a04c2;
+  color: #000!important;
   padding-left: 15px;
-  font-weight: 400;
+  font-weight: 700;
+  width: 100%;
   text-align: center;
-  text-shadow: 3px 4px 6px black
+  border-radius: 100px !important;
+  padding: 1rem 2rem;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  border: solid 2px #2a04c2;
 }
 
 .page-description{
